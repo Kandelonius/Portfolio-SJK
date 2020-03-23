@@ -17,11 +17,16 @@
     color:black;
     background-color: white;
   }
-    :root {
-    font-size: 1.6rem;
-    --bg-primary:@bgBlue;
-    --gb-secondary:@bgPurple;
+  body::-webkit-scrollbar{
+    width: 0.5rem;
   }
+  body::-webkit-scrollbar-track {
+    background: @bgGreen;
+  }
+  body::-webkit-scrollbar-thumb {
+    background: @bgPurple;
+  }
+  
   main {
     margin-left:5rem;
     padding: 1rem;

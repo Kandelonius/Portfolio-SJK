@@ -136,10 +136,14 @@ body {
   color: black;
   background-color: white;
 }
-:root {
-  font-size: 1.6rem;
-  --bg-primary: #657293;
-  --gb-secondary: #6F648F;
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+body::-webkit-scrollbar-track {
+  background: #547B7F;
+}
+body::-webkit-scrollbar-thumb {
+  background: #6F648F;
 }
 main {
   margin-left: 5rem;
@@ -169,4 +173,10 @@ img {
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;
+}
+.nav-bar {
+  width: 5rem;
+  height: 100vh;
+  position: fixed;
+  background: #657293;
 }
