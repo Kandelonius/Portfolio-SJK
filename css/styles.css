@@ -137,16 +137,16 @@ body {
   background-color: #657293;
 }
 body::-webkit-scrollbar {
-  width: 0.5rem;
+  width: 0.75rem;
 }
 body::-webkit-scrollbar-track {
-  background: #547B7F;
+  background: #144044;
 }
 body::-webkit-scrollbar-thumb {
   background: #6F648F;
 }
 main {
-  margin-left: 5rem;
+  margin-left: 6rem;
   padding: 1rem;
 }
 h1 {
@@ -182,8 +182,51 @@ img {
   margin: 0 auto;
 }
 .nav-bar {
-  width: 5rem;
+  width: 6rem;
   height: 100vh;
   position: fixed;
-  background: #547B7F;
+  z-index: 1;
+  background: #144044;
+  display: flex;
+  justify-content: center;
+  transition: width 200ms ease;
+}
+.nav-bar-nav {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+.nav-item {
+  width: 80%;
+}
+.nav-link {
+  height: 6rem;
+  filter: grayscale(100%) opacity(0.7);
+  transition: var(--transition-speed);
+}
+.nav-logo svg {
+  transform: rotate(0deg);
+  transition: transform var(--transition-speed);
+}
+.nav-link:hover {
+  filter: grayscale(0%) opacity(1);
+}
+.nav-bar:hover {
+  width: 16rem;
+}
+.nav-bar:hover .nav-logo svg {
+  transform: rotate(-180deg);
+}
+.fa-primary {
+  color: #657293;
+}
+.fa-secondary {
+  color: #291C4D;
+}
+.link-text {
+  color: #657293;
+  font-size: 1.3rem;
 }
