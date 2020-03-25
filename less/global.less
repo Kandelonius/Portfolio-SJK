@@ -15,7 +15,7 @@
   // }
   body {
     color:black;
-    background-color: white;
+    background-color: @bgBlue;
   }
   body::-webkit-scrollbar{
     width: 0.5rem;
@@ -34,6 +34,10 @@
 
   h1 {
     font-size: 4rem;
+    .flexMixin(@justify: center, @align:center);
+    width:100%;
+    height: 50vh;
+    background-color: @bgPurple;
   }
   
   h2 {
