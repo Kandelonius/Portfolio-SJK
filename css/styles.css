@@ -230,3 +230,13 @@ img {
   color: #0C1634;
   font-size: 1.3rem;
 }
+#projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.individual-project {
+  width: 100%;
+}
