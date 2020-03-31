@@ -247,8 +247,8 @@ img {
   align-items: flex-start;
   width: 100%;
 }
-.individual-project a {
-  font-size: 4rem;
-  color: black;
-  text-decoration: none;
+.individual-project a,
+.individual-project div {
+  margin: 2% 1%;
+  width: 40%;
 }
