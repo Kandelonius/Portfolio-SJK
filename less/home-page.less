@@ -1,5 +1,16 @@
-#main-section{
-    color:black;
+.color-blocker{
+    height:95%;
+    width:49.9%;
+    background-color:#524577;
+    position: fixed;
+    z-index: -1;
+    margin:4.4% 0 0;
+}
+.left-blocker{
+    left:0px;
+}
+.right-blocker{
+    right:0px;
 }
 #projects{
     .flexMixin(@justify:center);
@@ -7,6 +18,7 @@
 }
 .individual-project{
     .flexMixin(@justify:center);
+    background-color: #445175;
     width:100%;
     a, div{
         margin:2% 1%;

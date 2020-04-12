@@ -6,5 +6,5 @@ function colorChange(event){
     let documentBlue = 255 - 255*event.offsetX/document.body.clientWidth;
     document.body.style.backgroundColor = 'rgb(' + documentRed + ',' + documentGreen + ',' + documentBlue + ')';
   }
-  
   document.addEventListener('mousemove', colorChange);
+  
