@@ -135,7 +135,7 @@ html {
 }
 body {
   color: black;
-  background-color: #244E52;
+  background-color: #3A2E5D;
 }
 body::-webkit-scrollbar {
   width: 0.75rem;
@@ -150,7 +150,7 @@ main {
   padding: 1rem;
 }
 h1 {
-  font-size: 5rem;
+  font-size: 3.7rem;
 }
 h2 {
   font-size: 3.2rem;
@@ -169,32 +169,27 @@ img {
   max-width: 100%;
   height: auto;
 }
-.container {
-  padding-bottom: 10px;
-  max-width: 1000px;
-  width: 100%;
-  margin: 6% auto 1%;
-  background-color: #445175;
-}
 header {
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-content: center;
   width: 100%;
-  background-color: #3A2E5D;
-  height: 5.5%;
+  background-color: #C0C0C0;
+  border-bottom: 2px solid black;
+  height: 6%;
   top: 0;
   z-index: 2;
 }
 .color-blocker {
-  height: 95%;
+  height: 93.5%;
   width: 49.9%;
-  background-color: #524577;
+  background-color: #C0C0C0;
   position: fixed;
   z-index: -1;
-  margin: 4.4% 0 0;
+  margin: 0;
+  bottom: 0;
 }
 .left-blocker {
   left: 0px;
@@ -206,19 +201,36 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
+  align-content: flex-start;
   flex-wrap: wrap;
 }
 .individual-project {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-start;
-  background-color: #445175;
+  align-content: flex-start;
   width: 100%;
 }
 .individual-project a,
 .individual-project div {
   margin: 2% 1%;
   width: 40%;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  padding-bottom: 10px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 6% auto 1%;
+  background-color: #3A2E5D;
+}
+.inner-container {
+  background-color: #C0C0C0;
+  border: 2px solid black;
+  width: 99%;
+  height: 99%;
+  margin-top: 0.5%;
 }

@@ -1,15 +1,19 @@
 .color-blocker{
-    height:95%;
+    height:93.5%;
     width:49.9%;
-    background-color:#524577;
+    background-color: #C0C0C0;
+    // border-top:2px solid black;
     position: fixed;
     z-index: -1;
-    margin:4.4% 0 0;
+    margin:0;
+    bottom:0;
 }
 .left-blocker{
+    // border-right:2px solid black;
     left:0px;
 }
 .right-blocker{
+    // border-left:2px solid black;
     right:0px;
 }
 #projects{
@@ -18,10 +22,25 @@
 }
 .individual-project{
     .flexMixin(@justify:center);
-    background-color: #445175;
     width:100%;
     a, div{
         margin:2% 1%;
         width:40%;
     }
+}
+.container {
+    .flexMixin(@justify:center);
+    padding-bottom: 10px;
+    max-width: 1000px;
+    width: 100%;
+    margin: 6% auto 1%;
+    background-color: @bgPurple;
+    // border:2px solid black;
+  }
+.inner-container{
+    background-color: #C0C0C0;
+    border:2px solid black;
+    width:99%;
+    height:99%;
+    margin-top: .5%;
 }
