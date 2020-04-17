@@ -15,7 +15,18 @@
     border-radius: 15px 0 0 0;
 }
 #main-section{
-    margin-top:50vh;
+    margin-top:20vh;
+    #introduction{
+        .flexMixin(@justify:center);
+    flex-wrap: wrap;
+        img, p{
+            margin:2% 1%;
+            width:40%;
+        }
+        img{
+            border-radius: 20px 45px;
+        }
+    }
 }
 #projects{
     .flexMixin(@justify:center);
@@ -28,6 +39,9 @@
     a, div{
         margin:2% 1%;
         width:40%;
+        img{
+            border-radius: 20px 45px;
+        }
     }
 }
 .container {

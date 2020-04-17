@@ -213,7 +213,22 @@ footer .container {
   border-radius: 15px 0 0 0;
 }
 #main-section {
-  margin-top: 50vh;
+  margin-top: 20vh;
+}
+#main-section #introduction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+#main-section #introduction img,
+#main-section #introduction p {
+  margin: 2% 1%;
+  width: 40%;
+}
+#main-section #introduction img {
+  border-radius: 20px 45px;
 }
 #projects {
   display: flex;
@@ -234,6 +249,10 @@ footer .container {
 .individual-project div {
   margin: 2% 1%;
   width: 40%;
+}
+.individual-project a img,
+.individual-project div img {
+  border-radius: 20px 45px;
 }
 .container {
   display: flex;
