@@ -17,11 +17,16 @@
 #main-section{
     margin-top:20vh;
     #introduction{
-        .flexMixin(@justify:center);
-    flex-wrap: wrap;
-        img, p{
+        .flexMixin(@justify:space-around);
+        flex-wrap: wrap;
+        img, div{
             margin:2% 1%;
             width:40%;
+        }
+        div{
+            height:100%;
+            display:flex;
+            align-content:center;
         }
         img{
             border-radius: 20px 45px;

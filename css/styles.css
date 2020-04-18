@@ -218,14 +218,19 @@ footer .container {
 #main-section #introduction {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-content: flex-start;
   flex-wrap: wrap;
 }
 #main-section #introduction img,
-#main-section #introduction p {
+#main-section #introduction div {
   margin: 2% 1%;
   width: 40%;
+}
+#main-section #introduction div {
+  height: 100%;
+  display: flex;
+  align-content: center;
 }
 #main-section #introduction img {
   border-radius: 20px 45px;
