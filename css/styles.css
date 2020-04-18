@@ -141,7 +141,7 @@ body::-webkit-scrollbar {
   width: 0.75rem;
 }
 body::-webkit-scrollbar-track {
-  background: #0C1634;
+  background: dimgray;
 }
 body::-webkit-scrollbar-thumb {
   background: #3A2E5D;
@@ -204,7 +204,7 @@ footer .container div {
   justify-content: center;
   align-content: flex-start;
   width: 100%;
-  background-color: green;
+  background-color: dimgray;
 }
 footer .container div * {
   margin: 1% auto;
@@ -215,7 +215,7 @@ footer .container div * {
 .color-blocker {
   height: 100%;
   width: 49.9%;
-  background-color: #445175;
+  background-color: #323232;
   position: fixed;
   z-index: -1;
   margin: 65px 0 0;
