@@ -14,13 +14,21 @@ header{
 footer{
     bottom:0;
     .container{
+        // .flexMixin(@justify:center);
         max-width:100%;
         margin:0;
         border-radius:0;
+        padding-top: 1%;
+        padding-bottom:0;
         div{
-            .flexMixin(@justify:center);
-            margin:2% auto;
+            .flexMixin(@direction:column, @justify:center);
             width:100%;
+            background-color: green;
+            // padding-bottom:1%;
+            *{
+                margin:1% auto;
+
+            }
         }
     }
 }
