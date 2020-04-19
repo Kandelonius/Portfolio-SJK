@@ -204,7 +204,7 @@ footer .container div {
   justify-content: center;
   align-content: flex-start;
   width: 100%;
-  background-color: dimgray;
+  background-color: #C0C0C0;
 }
 footer .container div * {
   margin: 1% auto;
@@ -262,7 +262,7 @@ footer .container div * {
 .individual-project {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   align-content: flex-start;
   width: 100%;
 }
