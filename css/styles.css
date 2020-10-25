@@ -212,6 +212,13 @@ footer .container div * {
 .footer-image {
   width: 20px;
 }
+.full-screen {
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background-color: #323232;
+  position: fixed;
+}
 .color-blocker {
   height: 100%;
   width: 49.9%;
@@ -233,20 +240,20 @@ footer .container div * {
 }
 #main-section #introduction {
   display: flex;
-  flex-direction: row;
   justify-content: space-around;
   align-content: flex-start;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 #main-section #introduction img,
-#main-section #introduction div {
+#main-section #introduction #bio {
   margin: 2% 1%;
   width: 40%;
 }
-#main-section #introduction div {
-  height: 100%;
+#main-section #introduction #bio {
   display: flex;
   align-content: center;
+  flex-direction: column;
 }
 #main-section #introduction img {
   border-radius: 20px 45px;

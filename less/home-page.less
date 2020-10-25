@@ -1,3 +1,11 @@
+.full-screen{
+    height:100%;
+    width:100%;
+    z-index: 5;
+    background-color: rgb(50,50,50);
+    // opacity: 1;
+    position: fixed;
+}
 .color-blocker{
     height:100%;
     width:49.9%;
@@ -19,7 +27,7 @@
     #introduction{
         .flexMixin(@justify:space-around);
         flex-wrap: wrap;
-        height:100%;
+        flex-direction: row;
         img, #bio{
             margin:2% 1%;
             width:40%;
@@ -27,7 +35,7 @@
         #bio{
             display:flex;
             align-content:center;
-            flex-direction: row;
+            flex-direction: column;
         }
         img{
             border-radius: 20px 45px;

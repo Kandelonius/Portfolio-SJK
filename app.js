@@ -10,5 +10,4 @@ function colorChange(event){
 }
   document.body.style.backgroundColor = 'rgb(' + documentRed + ',' + documentGreen + ',' + documentBlue + ')';
 }
-  document.addEventListener('mousemove', colorChange);
-  
+document.getElementById('full-screen').addEventListener('mousemove', colorChange);
