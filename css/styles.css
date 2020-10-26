@@ -216,7 +216,7 @@ footer .container div * {
   height: 100%;
   width: 100%;
   z-index: 5;
-  background-color: #323232;
+  opacity: 0;
   position: fixed;
 }
 .color-blocker {
