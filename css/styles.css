@@ -128,7 +128,6 @@ table {
 }
 * {
   box-sizing: border-box;
-  z-index: 0;
 }
 html {
   font-size: 62.5%;
@@ -195,6 +194,7 @@ footer {
   bottom: 0;
 }
 footer .container {
+  z-index: 4;
   max-width: 100%;
   margin: 0;
   border-radius: 0;
@@ -270,6 +270,7 @@ footer .container div * {
   margin-bottom: 20vh;
 }
 .individual-project {
+  pointer-events: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -285,6 +286,9 @@ footer .container div * {
 .individual-project div img {
   border-radius: 20px 45px;
 }
+.individual-project a {
+  z-index: 3;
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -296,7 +300,6 @@ footer .container div * {
   margin: 6% auto 1%;
   background-color: #3A2E5D;
   border-radius: 45px 20px;
-  z-index: 2;
   position: relative;
 }
 .inner-container {
