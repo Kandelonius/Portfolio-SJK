@@ -194,7 +194,6 @@ footer {
   bottom: 0;
 }
 footer .container {
-  z-index: 4;
   max-width: 100%;
   margin: 0;
   border-radius: 0;
@@ -207,10 +206,17 @@ footer .container div {
   justify-content: center;
   align-content: flex-start;
   width: 100%;
-  background-color: #C0C0C0;
+  background-color: dimgray;
 }
 footer .container div * {
   margin: 1% auto;
+}
+footer .container nav {
+  z-index: 4;
+}
+footer .container a {
+  font-size: 2rem;
+  margin: 4%;
 }
 .footer-image {
   width: 20px;

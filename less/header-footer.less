@@ -13,21 +13,27 @@ header{
 }
 footer{
     bottom:0;
-    
     .container{
-        z-index: @top;
         max-width:100%;
         margin:0;
         border-radius:0;
         padding-top: 1%;
         padding-bottom:0;
         div{
+            // z-index: @top;
             .flexMixin(@direction:column, @justify:center);
             width:100%;
-            background-color: #C0C0C0;
+            background-color: @bgBlue;
             *{
                 margin:1% auto;
             }
+        }
+        nav{
+            z-index: @top;
+        }
+        a{
+            font-size:2rem;
+            margin: 4%;
         }
     }
 }
