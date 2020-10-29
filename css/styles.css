@@ -140,10 +140,10 @@ body::-webkit-scrollbar {
   width: 0.75rem;
 }
 body::-webkit-scrollbar-track {
-  background: dimgray;
+  background: #3A2E5D;
 }
 body::-webkit-scrollbar-thumb {
-  background: #3A2E5D;
+  background: dimgray;
 }
 main {
   padding: 1rem;
@@ -181,7 +181,7 @@ header {
   justify-content: center;
   align-content: center;
   width: 100%;
-  background-color: #C0C0C0;
+  background-color: dimgray;
   border-bottom: 2px solid black;
   height: 62px;
   top: 0;
