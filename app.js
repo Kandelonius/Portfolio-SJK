@@ -1,5 +1,5 @@
 let colorListener = true;
-
+const instruction = document.getElementById("instruction");
 function colorChange(event) {
   const container = document.getElementsByClassName("container");
   let documentRed = 255 * event.offsetX / document.body.clientWidth;
@@ -9,6 +9,7 @@ function colorChange(event) {
   for (i = 0; i < container.length; i++) {
     container[i].style.backgroundColor = setColor;
   }
+  instruction.style.backgroundColor = setColor;
   document.body.style.backgroundColor = setColor;
 }
 
@@ -28,4 +29,3 @@ document.addEventListener('keypress', function (e) {
     colorToggle(e);
   }
 });
-

@@ -190,6 +190,38 @@ header {
 header a {
   font-size: 2rem;
 }
+#instruction {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: flex-start;
+  align-self: flex-start;
+  height: 25px;
+  width: 30px;
+  border-radius: 50%;
+  padding: 7px;
+  margin: 5px;
+  position: relative;
+}
+#instruction #info-text {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  width: 120px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+#instruction:hover #info-text {
+  visibility: visible;
+  opacity: 1;
+}
 footer {
   bottom: 0;
 }
