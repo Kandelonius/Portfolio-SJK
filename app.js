@@ -14,18 +14,16 @@ function colorChange(event){
 
 function colorToggle(event){
   if (colorListener){
-      document.querySelector('.full-screen').removeEventListener('mousemove', 
-      colorChange);
+    document.querySelector('.full-screen').removeEventListener('mousemove', colorChange);
       colorListener = false;
   }else{
-      document.querySelector('.full-screen').addEventListener('mousemove', 
-      colorChange);
+      document.querySelector('.full-screen').addEventListener('mousemove', colorChange);
       colorListener = true;
   }
 }
 document.querySelector('.full-screen').addEventListener('mousemove', colorChange);
 window.addEventListener('keydown', event =>{
-  if(event.key === 'Escape'){
+  if(event.key === 'Esc'){
       colorToggle;
   }
 });
