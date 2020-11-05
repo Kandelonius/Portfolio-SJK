@@ -30,7 +30,7 @@
         flex-direction: row;
         img, #bio{
             margin:2% 1%;
-            width:40%;
+            width:48%;
         }
         #bio{
             display:flex;
@@ -40,6 +40,13 @@
         img{
             border-radius: 20px 45px;
         }
+    }
+}
+#list{
+    .flexMixin(@justify:space-around);
+    ul{
+        .flexMixin(@direction:column, @justify:space-between);
+        flex-wrap: wrap;
     }
 }
 #projects{

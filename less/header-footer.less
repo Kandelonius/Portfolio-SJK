@@ -7,25 +7,27 @@ header{
     height:62px;
     top:0;
     z-index: @top;
+    div{
+        width: 350px;
+        h1{
+            text-align: center;
+        }
+    }
     a{
         font-size:2rem;
+        margin: 0 3%;
     }
 }
 
 #instruction{
     .flexMixin(@justify:center);
     align-self: flex-start;
-    // position: relative;
     height: 25px;
     width: 30px;
     border-radius: 50%;
-    // z-index: @top;
-    padding: 7px;
-    // color: whitesmoke;
+    // padding: 7px;
     margin: 5px;
     position: relative;
-//   display: inline-block;
-//   border-bottom: 1px dotted black;
 }
 #instruction #info-text{
     visibility: hidden;
@@ -68,7 +70,7 @@ footer{
             z-index: @top;
         }
         a{
-            font-size:2rem;
+            font-size:2.5rem;
             margin: 4%;
         }
     }

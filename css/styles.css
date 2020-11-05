@@ -163,6 +163,9 @@ h4 {
   font-size: 2.5rem;
   padding-bottom: 10px;
 }
+li {
+  font-size: 1.6rem;
+}
 p {
   line-height: 1.5;
   font-size: 1.6rem;
@@ -191,8 +194,15 @@ header {
   top: 0;
   z-index: 4;
 }
+header div {
+  width: 350px;
+}
+header div h1 {
+  text-align: center;
+}
 header a {
   font-size: 2rem;
+  margin: 0 3%;
 }
 #instruction {
   display: flex;
@@ -203,7 +213,6 @@ header a {
   height: 25px;
   width: 30px;
   border-radius: 50%;
-  padding: 7px;
   margin: 5px;
   position: relative;
 }
@@ -251,7 +260,7 @@ footer .container nav {
   z-index: 4;
 }
 footer .container a {
-  font-size: 2rem;
+  font-size: 2.5rem;
   margin: 4%;
 }
 .footer-image {
@@ -293,7 +302,7 @@ footer .container a {
 #main-section #introduction img,
 #main-section #introduction #bio {
   margin: 2% 1%;
-  width: 40%;
+  width: 48%;
 }
 #main-section #introduction #bio {
   display: flex;
@@ -302,6 +311,19 @@ footer .container a {
 }
 #main-section #introduction img {
   border-radius: 20px 45px;
+}
+#list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+#list ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 #projects {
   display: flex;
