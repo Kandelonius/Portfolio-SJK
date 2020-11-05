@@ -175,6 +175,9 @@ img {
   max-width: 100%;
   height: auto;
 }
+a {
+  color: #32c8c8;
+}
 nav {
   display: flex;
   flex-direction: row;
