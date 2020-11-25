@@ -344,6 +344,9 @@ footer .container a {
   align-content: flex-start;
   width: 100%;
 }
+.individual-project a {
+  z-index: 3;
+}
 .individual-project a,
 .individual-project div {
   margin: 2% 1%;
@@ -352,9 +355,6 @@ footer .container a {
 .individual-project a img,
 .individual-project div img {
   border-radius: 20px 45px;
-}
-.individual-project a {
-  z-index: 3;
 }
 .container {
   display: flex;

@@ -23,7 +23,7 @@ function colorToggle(event) {
   }
 }
 document.querySelector('.full-screen').addEventListener('mousemove', colorChange);
-// document.addEventListener('click', colorToggle);
+
 document.addEventListener('keypress', function (e) {
   if (e.key === 'Enter') {
     colorToggle(e);
