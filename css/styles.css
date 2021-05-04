@@ -320,6 +320,11 @@ footer .container a {
 #main-section #introduction img {
   border-radius: 20px 45px;
 }
+@media (max-width: 800px) {
+  #main-section #introduction img {
+    display: none;
+  }
+}
 #list {
   display: flex;
   flex-direction: row;
@@ -387,7 +392,4 @@ footer .container a {
   text-align: center;
 }
 @media (max-width: 800px) {
-  img {
-    display: none;
-  }
 }
