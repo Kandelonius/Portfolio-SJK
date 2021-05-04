@@ -32,6 +32,9 @@
             width:48%;
         }
         #bio{
+            @media (max-width:800px) {
+                width:95%;
+            }
             display:flex;
             align-content:center;
             flex-direction: column;
@@ -90,4 +93,18 @@
     h2{
         text-align: center;
     }
+}
+@media (max-width:800px) {
+    img{
+        display: none;  
+    }
+    // #introduction{
+    //     // .inner-container{
+    //         width:95%;
+    //         #bio{
+    //             width:100%;
+    //         }
+    //     // }
+    // }
+    
 }
