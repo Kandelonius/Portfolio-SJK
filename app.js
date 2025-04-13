@@ -1,5 +1,6 @@
 let colorListener = true;
 const instruction = document.getElementById("instruction");
+// const passwordModal = document.getElementById("dev-name"); // element for modal popout
 function colorChange(event) {
   const container = document.getElementsByClassName("container");
   let documentRed = 255 * event.offsetX / document.body.clientWidth;
@@ -29,3 +30,8 @@ document.addEventListener('keypress', function (e) {
     colorToggle(e);
   }
 });
+
+
+// passwordModal.onclick = function() {
+  // modal.style.display = "block";
+// }
